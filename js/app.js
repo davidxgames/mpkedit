@@ -310,9 +310,9 @@ const buildModal = function(e) {
                     elem(["span",{onclick:function(){this.previousSibling.click()},className:"chkb0x"}])
                 ),
                 elem(["div",{className:"text"}],
-                elem(["div",{className:"textLabel",onmousedown:function(e){e.preventDefault()},innerHTML:"Show icons",
+                elem(["div",{className:"textLabel",onmousedown:function(e){e.preventDefault()},innerHTML:"Mostrar iconos",
                     onclick:function(){this.parentNode.previousSibling.querySelector("input").click()}}]),
-                elem(["div",{className:"textInfo",innerHTML:"Identify unique saves with icons."}])
+                elem(["div",{className:"textInfo",innerHTML:"Identifica las partidas guardadas únicas con un ícono."}])
                 )
             ),
             // SETTING 3: Reorder
