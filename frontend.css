@@ -159,7 +159,7 @@ input[type=checkbox]:checked +  .chkb0x::after {content: "✔"}
 }
 .content {
     word-wrap: break-word;
-    font-size: 14px;
+    font-size: 20px;
     color:var(--tx1);
     width:100%;
     padding-top:2px;
