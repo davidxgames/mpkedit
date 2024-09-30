@@ -208,7 +208,7 @@ const initMPK = function() {
     //for(let i = 0; i < 32; i++) data[i] = i; // write label - needs to be verified
     //data[0] = 0x81; // libultra's 81 mark
 
-    Parser(data, "New.mpk");
+    Parser(data, "Abrir MemPak");
 };
 
 /* -----------------------------------------------
