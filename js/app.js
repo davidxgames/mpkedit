@@ -5,7 +5,7 @@ function: changeTheme(i)
   Change theme to specified theme
 */
 const changeTheme = function(id) {
-    if(id) document.body.className = "theme-dark"
+    if(id) document.body.className = "TEMA OBSCURO"
     // not the best solution, but it works.
     else if(document.body.className) document.body.className = "";
 };
@@ -56,7 +56,7 @@ const pixicon = function(t, r) {
             for(let i = 0; i < arr.length; i++)
                 arr2[i] = arr[i-2*(i%w)+w-1];
         }
-        if(mode === 2 || mode === 4) { // rotate 90° CW
+        if(mode === 2 || mode === 4) { // rotate 90Â° CW
             for(let i = 0; i < arr.length; i++)
                 arr2[i] = arr[0|(h-1)*w-((i%h)*w)+i/h];
         }
