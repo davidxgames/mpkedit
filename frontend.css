@@ -321,13 +321,13 @@ canvas#hash {
 }
 
 td.region {
-    width: 50px;
+    width: 80px;
     text-align: center;
     font-size: 12px;
 }
 
 td.pgs {
-    width: 10px;
+    width: 20px;
     text-align: center;
     font-weight: bold;
 }
