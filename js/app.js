@@ -5,7 +5,7 @@ function: changeTheme(i)
   Change theme to specified theme
 */
 const changeTheme = function(id) {
-    if(id) document.body.className = "Dark theme"
+    if(id) document.body.className = "theme-dark"
     // not the best solution, but it works.
     else if(document.body.className) document.body.className = "";
 };
