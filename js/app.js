@@ -503,7 +503,7 @@ const updateUI = function() {
         out.appendChild(tableRow);
     }
     // display "Empty" msg if hideRows enabled
-    if(out.innerHTML==="") out.innerHTML = "<tr><td class=empty>-Empty file-</td></tr>";
+    if(out.innerHTML==="") out.innerHTML = "<tr><td class=empty>-Archivo vacío-</td></tr>";
 };
 
 App.updateUI = updateUI;
