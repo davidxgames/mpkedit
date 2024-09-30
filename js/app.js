@@ -298,9 +298,9 @@ const buildModal = function(e) {
                     elem(["span",{onclick:function(){this.previousSibling.click()},className:"chkb0x"}])
                 ),
                 elem(["div",{className:"text"}],
-                elem(["div",{className:"textLabel",onmousedown:function(e){e.preventDefault()},innerHTML:"Hide empty rows",
+                elem(["div",{className:"textLabel",onmousedown:function(e){e.preventDefault()},innerHTML:"Ocultar filas vacías",
                     onclick:function(){this.parentNode.previousSibling.querySelector("input").click()}}]),
-                elem(["div",{className:"textInfo",innerHTML:"Control whether empty rows are displayed."}])
+                elem(["div",{className:"textInfo",innerHTML:"Controla si se muestran las filas vacías."}])
                 )
             ),
             // SETTING 2: Pixicons
@@ -322,9 +322,9 @@ const buildModal = function(e) {
                     elem(["span",{onclick:function(){this.previousSibling.click()},className:"chkb0x"}])
                 ),
                 elem(["div",{className:"text"}],
-                elem(["div",{className:"textLabel",onmousedown:function(e){e.preventDefault()},innerHTML:"Enable reorder mode",
+                elem(["div",{className:"textLabel",onmousedown:function(e){e.preventDefault()},innerHTML:"Habilitar el modo de reordenar",
                     onclick:function(){this.parentNode.previousSibling.querySelector("input").click()}}]),
-                elem(["div",{className:"textInfo",innerHTML:"Allow notes to be reordered by drag & drop."}])
+                elem(["div",{className:"textInfo",innerHTML:"Permitir que las notas se reordenen mediante arrastrar y soltar."}])
                 )
             ),
             // SETTING 4: Theme
@@ -336,7 +336,7 @@ const buildModal = function(e) {
                 elem(["div",{className:"text"}],
                 elem(["div",{className:"textLabel",onmousedown:function(e){e.preventDefault()},innerHTML:"Tema Oscuro",
                     onclick:function(){this.parentNode.previousSibling.querySelector("input").click()}}]),
-                elem(["div",{className:"textInfo",innerHTML:"Activa el teme Oscuro"}])
+                elem(["div",{className:"textInfo",innerHTML:"Activa el tema Oscuro"}])
                 )
             )
         );
@@ -488,8 +488,8 @@ const updateUI = function() {
     w1 = `width:${w1}%;${w1===100?"background:#547F96;":""}${w1>0&&w1<100?"border-right:1px solid rgba(0,0,0,0.15)":""}`;
     w2 = `width:${w2}%;${w2===100?"background:#547F96;":""}${w2>0&&w2<100?"border-right:1px solid rgba(0,0,0,0.15)":""}`;
     const status =
-    `<span class=statBox>${123-State.usedPages}/123 pages free<div class=outerBar><div style='${w1}' class=innerBar></div></div></span>` +
-    `<span class=statBox>${16 -State.usedNotes}/16  notes free<div class=outerBar><div style='${w2}' class=innerBar></div></div></span>`;
+    `<span class=statBox>${123-State.usedPages}/123 páginas libres<div class=outerBar><div style='${w1}' class=innerBar></div></div></span>` +
+    `<span class=statBox>${16 -State.usedNotes}/16  notas libres<div class=outerBar><div style='${w2}' class=innerBar></div></div></span>`;
     document.getElementById("stats").innerHTML = status;
 
     const out = document.querySelector("table");
