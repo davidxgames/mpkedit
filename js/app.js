@@ -334,9 +334,9 @@ const buildModal = function(e) {
                     elem(["span",{onclick:function(){this.previousSibling.click()},className:"chkb0x"}])
                 ),
                 elem(["div",{className:"text"}],
-                elem(["div",{className:"textLabel",onmousedown:function(e){e.preventDefault()},innerHTML:"Tema Obscuro",
+                elem(["div",{className:"textLabel",onmousedown:function(e){e.preventDefault()},innerHTML:"Tema Oscuro",
                     onclick:function(){this.parentNode.previousSibling.querySelector("input").click()}}]),
-                elem(["div",{className:"textInfo",innerHTML:"Switch to the dark side."}])
+                elem(["div",{className:"textInfo",innerHTML:"Activa el teme Oscuro"}])
                 )
             )
         );
