@@ -290,7 +290,7 @@ const buildModal = function(e) {
     if(e.target.id === "menu") {
         const settings =
         elem([],
-            elem(["h1","Settings"]),
+            elem(["h1","Ajustes"]),
             // SETTING 1: Hide Rows
             elem(["div",{className:"modalBlock"}],
                 elem(["span",{className:"state"}],
