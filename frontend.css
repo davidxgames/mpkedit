@@ -67,7 +67,7 @@ body {
     margin:0;
     background: var(--bg-body);
     color: var(--tx-body);
-    font: 16px "Lato", "Meiryo", "メイリオ", sans-serif; /*FF needs Meiryo explictly */
+    font: 20px "Lato", "Meiryo", "メイリオ", sans-serif; /*FF needs Meiryo explictly */
 }
 
 .main {
