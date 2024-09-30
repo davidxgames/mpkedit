@@ -140,13 +140,13 @@ input[type=checkbox]:checked +  .chkb0x::after {content: "✔"}
     height:18px;width:18px;
     background:var(--bg-dark2);
     color:var(--tx1);font-weight:bold;
-    text-align:center;font-size:12px;
+    text-align:center;font-size:16px;
     border-radius:4px;
 } 
 .fixed{font-family:monospace;}
 .modalBlock {vertical-align: top;display:inline-block;width:50%;}
 .text   {vertical-align: middle; display: table-cell; }
-.textInfo{line-height:1;font-weight:normal;color:var(--tx1);font-size:13px;}
+.textInfo{line-height:1;font-weight:normal;color:var(--tx1);font-size:16px;}
 .textLabel{line-height:1;cursor:pointer;font-weight:bold;}
 
 .label {
@@ -155,7 +155,7 @@ input[type=checkbox]:checked +  .chkb0x::after {content: "✔"}
     margin-right: 15px;
     text-align: right;
     font-weight:bold;
-    font-size:16px;
+    font-size:20px;
 }
 .content {
     word-wrap: break-word;
@@ -231,12 +231,12 @@ div#stats {
     background: var(--bg2);
     text-align:center;
     font-weight:400;
-    font-size:14px;
+    font-size:20px;
     border-bottom: 1px solid var(--bg3);
 }
 
 div#stats .statBox {
-    font-size:12px;
+    font-size:20px;
     width:150px;
     text-align:center;
     display:inline-block;
@@ -264,12 +264,12 @@ table {
     border-bottom: 2px solid var(--bg4);
     border-left: 1px solid var(--bg1);
     border-right: 1px solid var(--bg1);
-    font-size: 14px;
+    font-size: 20px;
 }
 
 tr.empty {
     text-align:center;
-    font-size:10px;
+    font-size:20px;
     color:var(--tx1);
     opacity:0.8;
 }
@@ -301,12 +301,12 @@ td.divider div {
 
 td.name {
     font-weight: bold;
-    font-size: 14px;
+    font-size: 20px;
 }
 
 td.name div {
     font-weight: normal;
-    font-size: 12px;
+    font-size: 20px;
     color: var(--tx1);
 }
 
@@ -323,7 +323,7 @@ canvas#hash {
 td.region {
     width: 32px;
     text-align: center;
-    font-size: 12px;
+    font-size: 20px;
 }
 
 td.pgs {
@@ -342,7 +342,7 @@ td.tool {
 td.empty {
     padding: 16px;
     text-align: center;
-    font-size: 16px;
+    font-size: 20px;
     font-style: italic;
 }
 
